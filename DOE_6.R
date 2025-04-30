@@ -71,7 +71,7 @@ summary(model_DOE6_IgG3)
 
 ## plot a pareto plot for the final model
 paretoPlot(model_DOE6_IgA)  ## fig S7.B
-paretoPlot(model_DOE6_IgE)  ## fig S7.A
+paretoPlot(model_DOE6_IgE)  ## fig 6.D
 paretoPlot(model_DOE6_IgG1)  ## fig S7.C
 paretoPlot(model_DOE6_IgG3)  ## fig S7.D
 
@@ -176,20 +176,19 @@ plot_data_2levels(DOE6_IgG1.log10, DOE6_IgE.log10, BAFF, 'BAFF', 'IgG1 (log10)',
 ## fig S7.F
 plot_data_2levels(DOE6_IgG1.log10, DOE6_IgG3.log10, IL4, 'IL4', 'IgG1 (log10)', 'IgG3 (log10)')
 plot_data_2levels(DOE6_IgG1.log10, DOE6_IgA.log10, IL4, 'IL4', 'IgG1 (log10)', 'IgA (log10)')
-## fig 6.E
+## fig 6.F
 plot_data_2levels(DOE6_IgG1.log10, DOE6_IgE.log10, IL4, 'IL4', 'IgG1 (log10)', 'IgE (log10)')
 
 ## fig S7.G
 plot_data_2levels(DOE6_IgG1.log10, DOE6_IgG3.log10, CD40L_exp, 'CD40L_exp', 'IgG1 (log10)', 'IgG3 (log10)')
 plot_data_2levels(DOE6_IgG1.log10, DOE6_IgA.log10, CD40L_exp, 'CD40L_exp', 'IgG1 (log10)', 'IgA (log10)')
-## fig 6.F
+## fig 6.G
 plot_data_2levels(DOE6_IgG1.log10, DOE6_IgE.log10, CD40L_exp, 'CD40L_exp', 'IgG1 (log10)', 'IgE (log10)')
 
-## fig S7.E
 plot_data_TIME(DOE6_IgG1.log10, DOE6_IgG3.log10, TIME, 'Time', 'IgG1 (log10)', 'IgG3 (log10)')
 ## fig S7.H
 plot_data_TIME(DOE6_IgG1.log10, DOE6_IgA.log10, TIME, 'Time', 'IgG1 (log10)', 'IgA (log10)')
-## fig 6.D
+## fig 6.E
 plot_data_TIME(DOE6_IgG1.log10, DOE6_IgE.log10, TIME, 'Time', 'IgG1 (log10)', 'IgE (log10)')
 
 ## save plot
